@@ -1,5 +1,7 @@
-header{
+#topNav{
     display: inline;
+    text-decoration: none;
+    color: black;
 }
 
 h1{
