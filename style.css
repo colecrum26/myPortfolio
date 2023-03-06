@@ -1,17 +1,45 @@
-#topNav{
+* {
+  background-color: aliceblue;
+}
+
+#topNav {
+  display: inline;
+  justify-content: space-around;
+  padding: 8px 8px;
+  text-decoration: none;
+}
+
+#welcome {
+  text-align: center;
+  background-color: beige;
+}
+
+#intro {
+  text-align: center;
+  flex-wrap: wrap;
+  background-color: antiquewhite;
+  margin: auto;
+}
+
+#projects {
+    text-align: center;
+}
+
+#pic1, #pic2 {
+    justify-content: space-around;
+    padding: 8px 8px;
+}
+
+#leftside {
+    position: relative;
+    align-content:
+    margin: auto;
+}
+
+#botNav {
     display: inline;
+    justify-content: space-around;
+    align-content: baseline;
+    padding: 8px 8px;
     text-decoration: none;
-    color: black;
-}
-
-h1{
-    text-align: center;
-}
-
-h2{
-    text-align: center;
-}
-
-p{
-    text-align: center;
 }
