@@ -1,12 +1,12 @@
-* {
+body{
   background-color: aliceblue;
 }
 
-#topNav {
+.topNav {
   display: inline;
   justify-content: space-around;
   padding: 8px 8px;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 #welcome {
@@ -32,11 +32,10 @@
 
 #leftside {
     position: relative;
-    align-content:
     margin: auto;
 }
 
-#botNav {
+.botNav {
     display: inline;
     justify-content: space-around;
     align-content: baseline;
