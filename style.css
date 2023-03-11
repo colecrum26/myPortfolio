@@ -2,11 +2,23 @@ body{
   background-color: aliceblue;
 }
 
-.topNav {
+.topNav{
   display: inline;
   justify-content: space-around;
-  padding: 8px 8px;
-  text-decoration: none !important;
+  border-style: solid;
+  list-style-type: none;
+}
+
+#homeNav{
+  text-decoration: none;
+}
+
+#abtNav{
+  text-decoration: none;
+}
+
+#projNav {
+  text-decoration: none;
 }
 
 #welcome {
@@ -19,26 +31,33 @@ body{
   flex-wrap: wrap;
   background-color: antiquewhite;
   margin: auto;
+  padding: 8px;
 }
 
-#projects {
-    text-align: center;
+#projects{
+  text-align: center;
 }
 
-#pic1, #pic2 {
-    justify-content: space-around;
-    padding: 8px 8px;
+.projectCard{
+  display: grid;
+  justify-content: center;
 }
 
-#leftside {
-    position: relative;
+.leftside {
+    border-style: solid;
+    display: flex;
+    justify-content: flex-start;
     margin: auto;
+}
+
+footer {
+  justify-content: center;
 }
 
 .botNav {
     display: inline;
     justify-content: space-around;
-    align-content: baseline;
+    align-content: center;
     padding: 8px 8px;
     text-decoration: none;
 }
