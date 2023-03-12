@@ -1,19 +1,20 @@
-body{
+body {
   background-color: aliceblue;
 }
 
-.topNav{
-  display: inline;
+.topNav {
+  display: flex;
   justify-content: space-around;
   border-style: solid;
   list-style-type: none;
+  background-color: antiquewhite;
 }
 
-#homeNav{
+#homeNav {
   text-decoration: none;
 }
 
-#abtNav{
+#abtNav {
   text-decoration: none;
 }
 
@@ -34,20 +35,23 @@ body{
   padding: 8px;
 }
 
-#projects{
+#projOv {
   text-align: center;
 }
 
-.projectCard{
-  display: grid;
+.projectCard {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .leftside {
-    border-style: solid;
-    display: flex;
-    justify-content: flex-start;
-    margin: auto;
+  border-style: solid;
+  display: flex;
+  justify-content: flex-start;
+  margin: auto;
 }
 
 footer {
@@ -55,9 +59,19 @@ footer {
 }
 
 .botNav {
-    display: inline;
-    justify-content: space-around;
-    align-content: center;
-    padding: 8px 8px;
-    text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  padding: 16px;
+  list-style-type: none;
+  justify-content: space-around;
+  background-color: antiquewhite;
+}
+
+#learn {
+  text-decoration: none;
+}
+
+#contact {
+  text-decoration: none;
 }
