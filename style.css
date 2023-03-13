@@ -41,6 +41,12 @@ body {
   padding: 8px;
 }
 
+#projects {
+  border-style: groove;
+  border-radius: 10px 10px;
+  padding: 8px;
+}
+
 #projOv {
   text-align: center;
 }
