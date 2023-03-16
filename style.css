@@ -65,6 +65,18 @@ body {
   align-items: center;
 }
 
+#thanks {
+  text-align: center;
+}
+
+#aboutMe {
+  display: flex;
+  border-style: groove;
+  border-radius: 10px 10px;
+  justify-content: center;
+  text-align: center;
+}
+
 footer {
   justify-content: center;
 }
