@@ -101,10 +101,11 @@ footer {
   justify-content: center;
 }
 
-.botNav {
+.contact {
   display: flex;
   border-style: groove;
   border-radius: 10px 10px;
+  margin: 8px;
   padding: 16px;
   list-style-type: none;
   justify-content: space-around;
