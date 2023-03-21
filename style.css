@@ -12,20 +12,18 @@ body {
   background-color: antiquewhite;
   border-style: groove;
   border-radius: 10px 10px;
-  padding: 4px;
-  overflow: hidden;
+  margin: 0%;
+  width: auto;
 }
 
 .sticky {
   position: fixed;
-  scroll-behavior: smooth;
   top: 0;
   width: 100%;
 }
 
 .sticky + .content {
-  scroll-behavior: smooth;
-  padding-top: 30px;
+  padding-top: 0px;
 }
 
 #homeNav {
