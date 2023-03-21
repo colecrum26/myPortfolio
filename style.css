@@ -39,6 +39,10 @@ body {
   text-decoration: none;
 }
 
+#contactMe {
+  text-decoration: none;
+}
+
 #welcome {
   text-align: center;
   background-color: beige;
@@ -101,7 +105,7 @@ footer {
   justify-content: center;
 }
 
-.contact {
+#contact {
   display: flex;
   border-style: groove;
   border-radius: 10px 10px;
