@@ -12,7 +12,10 @@ body {
   background-color: antiquewhite;
   border-style: groove;
   border-radius: 10px 10px;
+  padding: 4px;
+  overflow: hidden;
 }
+
 .sticky {
   position: fixed;
   scroll-behavior: smooth;
@@ -20,8 +23,9 @@ body {
   width: 100%;
 }
 
-.sticky + main {
-  padding-top: 20px;
+.sticky + .content {
+  scroll-behavior: smooth;
+  padding-top: 30px;
 }
 
 #homeNav {
@@ -82,8 +86,10 @@ body {
 
 #aboutMe {
   display: flex;
+  flex-direction: column;
   border-style: groove;
   border-radius: 10px 10px;
+  padding: 8px;
   justify-content: center;
   text-align: center;
 }
@@ -94,7 +100,6 @@ footer {
 
 .botNav {
   display: flex;
-  flex-direction: row;
   border-style: groove;
   border-radius: 10px 10px;
   padding: 16px;
