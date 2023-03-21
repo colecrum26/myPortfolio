@@ -4,7 +4,7 @@ body {
   font-family: "Montserrat";
 }
 
-.topNav {
+#topNav {
   display: flex;
   justify-content: space-around;
   border-style: solid;
@@ -12,6 +12,16 @@ body {
   background-color: antiquewhite;
   border-style: groove;
   border-radius: 10px 10px;
+}
+.sticky {
+  position: fixed;
+  scroll-behavior: smooth;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + main {
+  padding-top: 20px;
 }
 
 #homeNav {
