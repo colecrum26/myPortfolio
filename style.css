@@ -90,6 +90,14 @@ body {
   text-align: center;
 }
 
+.skills{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 .skillTNs {
   display: flex;
   flex-wrap: wrap;
