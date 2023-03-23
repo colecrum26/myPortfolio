@@ -21,6 +21,7 @@ body {
 
 .sticky {
   position: fixed;
+  margin: 2%;
   top: 0;
   width: 100%;
 }
