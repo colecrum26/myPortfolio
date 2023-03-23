@@ -126,5 +126,6 @@ a:visited{
 }
 
 a:hover {
-  color: aqua;
+  color: cadetblue;
+  background-color:lavender;
 }
