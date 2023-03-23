@@ -10,9 +10,10 @@ body {
   justify-content: space-around;
   border-style: solid;
   list-style-type: none;
-  background-color: antiquewhite;
+  background-color: rgb(200, 200, 200);
   border-style: groove;
   border-radius: 10px 10px;
+  border-width: 8px;
   margin: 0%;
   width: auto;
   font-weight: 500;
@@ -22,6 +23,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+  
 }
 
 .sticky + .content {
@@ -57,7 +59,7 @@ body {
   background-color: antiquewhite;
   border-style: groove;
   border-radius: 10px 10px;
-  margin: auto;
+  margin: 8px;
   padding: 8px;
 }
 
@@ -84,6 +86,19 @@ body {
   align-items: center;
 }
 
+#talents{
+  text-align: center;
+}
+
+.skillTNs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 6px;
+  justify-content: center;
+  align-items: center;
+}
+
 #thanks {
   text-align: center;
 }
@@ -93,7 +108,8 @@ body {
   flex-direction: column;
   border-style: groove;
   border-radius: 10px 10px;
-  padding: 8px;
+  padding: 16px;
+  margin: 8px;
   justify-content: center;
   text-align: left;
 }
@@ -102,12 +118,18 @@ body {
   font-weight: 450;
 }
 
-#me {
- align-self: center;
+#WDE {
+  background: -webkit-linear-gradient(orange, blue);
+  -webkit-background-clip: text; /*asking for additional definition*/
+  -webkit-text-fill-color: transparent;
 }
 
-footer {
-  justify-content: center;
+.any {
+  font-weight: 675;
+}
+
+#me {
+ align-self: center;
 }
 
 #contact {
