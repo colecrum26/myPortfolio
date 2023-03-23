@@ -1,4 +1,5 @@
 body {
+  background-image: linear-gradient(to bottom, aliceblue, cadetblue);
   background-color: aliceblue;
   scroll-behavior: smooth;
   font-family: "Montserrat";
@@ -95,6 +96,10 @@ body {
   padding: 8px;
   justify-content: center;
   text-align: left;
+}
+
+.about {
+  font-weight: 450;
 }
 
 #me {
