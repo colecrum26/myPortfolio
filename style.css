@@ -15,7 +15,6 @@ body {
   border-width: 8px;
   margin: 0%;
   width: auto;
-  font-weight: 500;
 }
 
 .sticky {
@@ -32,6 +31,7 @@ body {
 
 #homeNav, #projNav, #abtNav, #contactMe {
   text-decoration: none;
+  font-weight: 600;
 }
 
 #welcome {
@@ -86,6 +86,10 @@ body {
   margin-right: 10%;
 }
 
+i {
+  font-size: 100px
+}
+
 .skillTNs {
   display: flex;
   flex-wrap: wrap;
@@ -93,6 +97,10 @@ body {
   padding: 6px;
   justify-content: center;
   align-items: center;
+}
+
+.skillDefs {
+  text-decoration: none;
 }
 
 #thanks {
@@ -148,7 +156,6 @@ a:visited {
   color: black;
 }
 
-a:hover {
-  color: cadetblue;
-  background-color: lavender;
+a.skillDefs:hover {
+  -webkit-transform: scale(1.2);
 }
