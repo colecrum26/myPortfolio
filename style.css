@@ -1,6 +1,5 @@
 body {
   background-image: linear-gradient(to bottom, aliceblue, cadetblue);
-  background-color: aliceblue;
   scroll-behavior: smooth;
   font-family: "Montserrat";
 }
@@ -10,7 +9,7 @@ body {
   justify-content: space-around;
   border-style: solid;
   list-style-type: none;
-  background-color: rgb(200, 200, 200);
+  background-color: rgb(172, 193, 201);
   border-style: groove;
   border-radius: 10px 10px;
   border-width: 8px;
@@ -21,6 +20,7 @@ body {
 
 .sticky {
   position: fixed;
+  word-spacing: 8px;
   margin: 2%;
   top: 0;
   width: 100%;
@@ -30,19 +30,7 @@ body {
   padding-top: 0px;
 }
 
-#homeNav {
-  text-decoration: none;
-}
-
-#projNav {
-  text-decoration: none;
-}
-
-#abtNav {
-  text-decoration: none;
-}
-
-#contactMe {
+#homeNav, #projNav, #abtNav, #contactMe {
   text-decoration: none;
 }
 
@@ -86,7 +74,7 @@ body {
   align-items: center;
 }
 
-#talents {
+#talents, #learnMore {
   text-align: center;
 }
 
