@@ -74,6 +74,10 @@ body {
   align-items: center;
 }
 
+.projectCard:hover {
+  -webkit-transform: scale(1.1);
+}
+
 #talents, #learnMore {
   text-align: center;
 }
@@ -157,5 +161,9 @@ a:visited {
 }
 
 a.skillDefs:hover {
+  -webkit-transform: scale(1.2);
+}
+
+a.projectPic:hover {
   -webkit-transform: scale(1.2);
 }
