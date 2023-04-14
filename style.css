@@ -1,6 +1,8 @@
 :root {
   --body: rgb(247, 241, 241);
-  --gradient: rgb(251, 239, 239);
+  --gradient: rgb(237, 230, 230);
+  --text: rgb(145, 138, 138);
+  --bTextShadow: rgb(205, 196, 196);
 }
 
 body {
@@ -13,11 +15,11 @@ body {
   justify-content: space-around;
   border-style: solid;
   list-style-type: none;
-  background-color: var(--gradient);
+  background-color: var(--body);
   border-style: solid;
   border-color: var(--gradient);
   border-radius: 10px 10px;
-  border-width: 2px;
+  border-width: 3px;
   margin: 0%;
   width: auto;
 }
@@ -41,8 +43,9 @@ body {
 
 #welcome {
   text-align: center;
-  text-shadow: 2px 2px rgb(172, 193, 201);
-
+  color: var(--text);
+  text-shadow: 2px 2px var(--bTextShadow);
+  font-weight: 450;
 }
 
 #intro {
@@ -69,7 +72,8 @@ body {
 
 #projOv {
   text-align: center;
-  text-shadow: 2px 2px rgb(172, 193, 201);
+  color: var(--text);
+  font-weight: 400;
 }
 
 .projectCard {
@@ -87,6 +91,8 @@ body {
 
 #talents, #learnMore {
   text-align: center;
+  color: var(--text);
+  font-weight: 400;
 }
 
 .skills{
@@ -117,15 +123,14 @@ i {
 #aboutMe {
   display: flex;
   flex-direction: column;
-  border-style: groove;
-  border-radius: 10px 10px;
   padding: 16px;
-  margin: 8px;
+  margin: 60px 8px 8px 8px;
   justify-content: center;
   text-align: left;
 }
 
 .about {
+  color: var(--text);
   font-weight: 450;
 }
 
@@ -154,11 +159,11 @@ i {
 }
 
 a:link {
-  color: black;
+  color: var(--text);
 }
 
 a:visited {
-  color: black;
+  color: var(--text);
 }
 
 a.skillDefs:hover {
