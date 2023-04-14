@@ -89,9 +89,23 @@ body {
   -webkit-transform: scale(1.1);
 }
 
-#talents, #learnMore {
+#tech {
+  background-color: var(--gradient);
+  border-style: solid;
+  border-color: var(--gradient);
+  border-radius: 10px 10px;
+  margin: 24px 0 24px 0;
+  padding: 8px;
+}
+
+#talents {
   text-align: center;
   color: var(--text);
+  font-weight: 400;
+}
+
+#learnMore {
+  text-align: center;
   font-weight: 400;
 }
 
@@ -131,7 +145,7 @@ i {
 
 .about {
   color: var(--text);
-  font-weight: 450;
+  font-weight: 425;
 }
 
 #WDE {
@@ -140,6 +154,7 @@ i {
 }
 
 .any {
+  color: black;
   font-weight: 675;
 }
 
@@ -154,7 +169,7 @@ i {
   margin: 8px;
   padding: 16px;
   background-color: rgb(231, 229, 229);;
-  font-family: "Phosphate";
+  font-family: "Montserrat";
 }
 
 a:link {
