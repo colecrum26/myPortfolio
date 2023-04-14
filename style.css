@@ -1,6 +1,10 @@
+:root {
+  --body: rgb(247, 241, 241);
+  --gradient: rgb(251, 239, 239);
+}
+
 body {
-  background-image: linear-gradient(to bottom, aliceblue, cadetblue);
-  scroll-behavior: smooth;
+  background-color: var(--body);
   font-family: "Montserrat";
 }
 
@@ -9,10 +13,11 @@ body {
   justify-content: space-around;
   border-style: solid;
   list-style-type: none;
-  background-color: rgb(172, 193, 201);
-  border-style: groove;
+  background-color: var(--gradient);
+  border-style: solid;
+  border-color: var(--gradient);
   border-radius: 10px 10px;
-  border-width: 8px;
+  border-width: 2px;
   margin: 0%;
   width: auto;
 }
@@ -37,16 +42,15 @@ body {
 #welcome {
   text-align: center;
   text-shadow: 2px 2px rgb(172, 193, 201);
-  background-color: beige;
-  border-style: groove;
-  border-radius: 10px 10px;
+
 }
 
 #intro {
   text-align: center;
   flex-wrap: wrap;
-  background-color: antiquewhite;
-  border-style: groove;
+  background-color: var(--gradient);
+  border-style: solid;
+  border-color: var(--gradient);
   border-radius: 10px 10px;
   margin: 8px;
   padding: 8px;
@@ -58,6 +62,7 @@ body {
   justify-content: center;
   gap: 1rem;
   border-style: groove;
+  border-color: var(--gradient);
   border-radius: 10px 10px;
   padding: 8px;
 }
@@ -144,7 +149,7 @@ i {
   border-radius: 10px 10px;
   margin: 8px;
   padding: 16px;
-  background-color: rgb(200, 200, 200);;
+  background-color: rgb(231, 229, 229);;
   font-family: "Phosphate";
 }
 
