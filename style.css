@@ -1,7 +1,7 @@
 :root {
   --body: rgb(247, 241, 241);
   --gradient: rgb(237, 230, 230);
-  --text: rgb(145, 138, 138);
+  --headerText: rgb(145, 138, 138);
   --bTextShadow: rgb(205, 196, 196);
 }
 
@@ -43,7 +43,7 @@ body {
 
 #welcome {
   text-align: center;
-  color: var(--text);
+  color: var(--headerText);
   text-shadow: 2px 2px var(--bTextShadow);
   font-weight: 450;
 }
@@ -72,7 +72,7 @@ body {
 
 #projOv {
   text-align: center;
-  color: var(--text);
+  color: var(--headerText);
   font-weight: 400;
 }
 
@@ -100,7 +100,7 @@ body {
 
 #talents {
   text-align: center;
-  color: var(--text);
+  color: var(--headerText);
   font-weight: 400;
 }
 
@@ -144,7 +144,6 @@ i {
 }
 
 .about {
-  color: var(--text);
   font-weight: 425;
 }
 
@@ -173,11 +172,11 @@ i {
 }
 
 a:link {
-  color: var(--text);
+  color: var(--headerText);
 }
 
 a:visited {
-  color: var(--text);
+  color: var(--headerText);
 }
 
 a.skillDefs:hover {
