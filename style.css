@@ -116,11 +116,9 @@ body {
   margin-left: 10%;
   margin-right: 10%;
 }
-
 i {
   font-size: 100px
 }
-
 .skillTNs {
   display: flex;
   flex-wrap: wrap;
@@ -129,7 +127,6 @@ i {
   justify-content: center;
   align-items: center;
 }
-
 .skillDefs {
   text-decoration: none;
 }
@@ -142,26 +139,22 @@ i {
   justify-content: center;
   text-align: left;
 }
-
 .about {
   font-weight: 425;
 }
-
 #WDE {
   color: rgb(248, 88, 30);
   text-shadow: 1px 1px blue;
 }
-
 .any {
   color: black;
   font-weight: 675;
 }
-
 #me {
   align-self: center;
 }
 
-#visit {
+#contact {
   border-style: groove;
   text-align: center;
   border-radius: 10px 10px;
@@ -170,19 +163,21 @@ i {
   background-color: rgb(231, 229, 229);;
   font-family: "Montserrat";
 }
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
 
 a:link {
   color: var(--headerText);
 }
-
 a:visited {
   color: var(--headerText);
 }
-
 a.skillDefs:hover {
   -webkit-transform: scale(1.2);
 }
-
 a.projectPic:hover {
   -webkit-transform: scale(1.1);
 }
