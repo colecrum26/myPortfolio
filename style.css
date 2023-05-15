@@ -27,11 +27,10 @@ body {
 .sticky {
   position: fixed;
   word-spacing: 8px;
-  margin: 2%;
+  margin: 0%;
   top: 0;
   width: 100%;
 }
-
 .sticky + .content {
   padding-top: 0px;
 }
@@ -69,13 +68,11 @@ body {
   border-radius: 10px 10px;
   padding: 8px;
 }
-
 #projOv {
   text-align: center;
   color: var(--headerText);
   font-weight: 400;
 }
-
 .projectCard {
   display: flex;
   flex-direction: column;
@@ -84,14 +81,16 @@ body {
   justify-content: center;
   align-items: center;
 }
-
+.projImg {
+  width: 400px;
+}
 .projectCard:hover {
   -webkit-transform: scale(1.1);
 }
 
 #tech {
   background-color: var(--gradient);
-  border-style: solid;
+  border-style: groove;
   border-color: var(--gradient);
   border-radius: 10px 10px;
   margin: 24px 0 24px 0;
