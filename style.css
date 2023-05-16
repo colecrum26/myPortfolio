@@ -1,5 +1,5 @@
 :root {
-  --body: rgb(247, 241, 241);
+  --body: rgb(255, 252, 252);
   --gradient: rgb(217, 217, 217);
   --headerText: rgb(145, 138, 138);
   --link: rgb(81, 77, 77);
@@ -96,7 +96,7 @@ body {
   border-style: groove;
   border-color: var(--gradient);
   border-radius: 10px 10px;
-  margin: 24px 0 24px 0;
+  margin: 24px 8px 24px 8px;
   padding: 8px;
 }
 
@@ -159,7 +159,7 @@ i {
   border-style: groove;
   text-align: center;
   border-radius: 10px 10px;
-  margin: 8px;
+  margin: 0px 8px 24px 8px;
   padding: 16px;
   background-color: var(--barForm);;
   font-family: "Montserrat";
@@ -175,7 +175,7 @@ i {
   width: 25%;
   margin: 4px 0 4px 0;
   border-radius: 4px;
-  background-color: rgb(240, 250, 255);
+  background-color: rgb(242, 248, 252);
 }
 #message {
   min-height: 100px;
