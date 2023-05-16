@@ -1,8 +1,10 @@
 :root {
   --body: rgb(247, 241, 241);
-  --gradient: rgb(237, 230, 230);
+  --gradient: rgb(217, 217, 217);
   --headerText: rgb(145, 138, 138);
-  --bTextShadow: rgb(205, 196, 196);
+  --link: rgb(81, 77, 77);
+  --bShadow: rgb(205, 196, 196);
+  --barForm: rgb(231, 229, 229);
 }
 
 body {
@@ -15,12 +17,12 @@ body {
   justify-content: space-around;
   border-style: solid;
   list-style-type: none;
-  background-color: var(--body);
+  background-color: var(--barForm);
   border-style: solid;
-  border-color: var(--gradient);
+  border-color: var(--bShadow);
   border-radius: 10px 10px;
   border-width: 3px;
-  margin: 0%;
+  margin: 0 8px 0 8px;
   width: auto;
 }
 
@@ -43,7 +45,7 @@ body {
 #welcome {
   text-align: center;
   color: var(--headerText);
-  text-shadow: 2px 2px var(--bTextShadow);
+  text-shadow: 2px 2px var(--bShadow);
   font-weight: 450;
 }
 
@@ -52,10 +54,11 @@ body {
   flex-wrap: wrap;
   background-color: var(--gradient);
   border-style: solid;
-  border-color: var(--gradient);
+  border-color: var(--bShadow);
   border-radius: 10px 10px;
   margin: 8px;
   padding: 8px;
+  font-weight: 400;
 }
 
 #projects {
@@ -99,8 +102,7 @@ body {
 
 #talents {
   text-align: center;
-  color: var(--headerText);
-  font-weight: 400;
+
 }
 
 #learnMore {
@@ -159,20 +161,37 @@ i {
   border-radius: 10px 10px;
   margin: 8px;
   padding: 16px;
-  background-color: rgb(231, 229, 229);;
+  background-color: var(--barForm);;
   font-family: "Montserrat";
 }
 #contactForm {
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding: 12px;
+}
+#name, #email, #message {
+  display: flex;
+  width: 25%;
+  margin: 4px 0 4px 0;
+  border-radius: 4px;
+  background-color: rgb(240, 250, 255);
+}
+#message {
+  min-height: 100px;
+}
+#message::placeholder {
+  vertical-align: text-top;
+}
+#send {
+  width: 10%;
 }
 
 a:link {
-  color: var(--headerText);
+  color: var(--link);
 }
 a:visited {
-  color: var(--headerText);
+  color: var(--link);
 }
 a.skillDefs:hover {
   -webkit-transform: scale(1.2);
