@@ -53,12 +53,11 @@ body {
   text-align: center;
   flex-wrap: wrap;
   background-color: var(--gradient);
-  border-style: solid;
-  border-color: var(--bShadow);
-  border-radius: 10px 10px;
-  margin: 8px;
-  padding: 8px;
+  padding: 36px;
   font-weight: 400;
+}
+#doing {
+  padding-top: 12px;
 }
 
 #projects {
@@ -93,11 +92,8 @@ body {
 
 #tech {
   background-color: var(--gradient);
-  border-style: groove;
-  border-color: var(--gradient);
-  border-radius: 10px 10px;
-  margin: 24px 8px 24px 8px;
-  padding: 8px;
+  margin: 24px 0 24px 0;
+  padding: 30px;
 }
 
 #talents {
@@ -156,10 +152,7 @@ i {
 }
 
 #contact {
-  border-style: groove;
   text-align: center;
-  border-radius: 10px 10px;
-  margin: 0px 8px 24px 8px;
   padding: 16px;
   background-color: var(--barForm);;
   font-family: "Montserrat";
@@ -185,6 +178,7 @@ i {
 }
 #send {
   width: 10%;
+  margin-top: 12px;
 }
 
 a:link {
