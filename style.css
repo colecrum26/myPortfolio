@@ -10,6 +10,7 @@
 body {
   background-color: var(--body);
   font-family: "Montserrat";
+  width: 100%;
 }
 
 #topNav {
