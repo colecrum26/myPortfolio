@@ -10,6 +10,8 @@
 body {
   background-color: var(--body);
   font-family: "Montserrat";
+  margin: 0;
+  padding: 0;
   width: 100%;
 }
 
@@ -23,8 +25,7 @@ body {
   border-color: var(--bShadow);
   border-radius: 10px 10px;
   border-width: 3px;
-  margin: 0 8px 0 8px;
-  width: auto;
+  margin: 8px 8px 0 8px;
 }
 
 .sticky {
