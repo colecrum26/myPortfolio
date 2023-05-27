@@ -73,6 +73,7 @@ body {
   border-color: var(--gradient);
   border-radius: 10px 10px;
   padding: 8px;
+  margin: 12px;
 }
 #projOv {
   text-align: center;
@@ -97,12 +98,9 @@ body {
   margin: 24px 0 24px 0;
   padding: 30px;
 }
-
 #talents {
   text-align: center;
-
 }
-
 #learnMore {
   text-align: center;
   font-weight: 400;
@@ -110,6 +108,7 @@ body {
 
 .skills{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   justify-content: space-around;
   margin-left: 10%;
@@ -119,10 +118,9 @@ i {
   font-size: 100px
 }
 .skillTNs {
-  display: flex;
-  flex-wrap: wrap;
   gap: 1rem;
   padding: 6px;
+  margin: 12px;
   justify-content: center;
   align-items: center;
 }
@@ -140,6 +138,7 @@ i {
 }
 .about {
   font-weight: 425;
+  margin: 48px;
 }
 #WDE {
   color: rgb(248, 88, 30);
