@@ -50,7 +50,7 @@ body {
   color: var(--headerText);
   text-shadow: 2px 2px var(--bShadow);
   font-weight: 450;
-  margin: 48px 0 48px 0;
+  margin: 72px 0 48px 0;
 }
 
 #intro {
@@ -90,9 +90,7 @@ body {
 .projImg {
   width: 400px;
 }
-.projectCard:hover {
-  -webkit-transform: scale(1.1);
-}
+
 
 #tech {
   background-color: var(--gradient);
@@ -157,9 +155,10 @@ i {
 
 #contact {
   text-align: center;
+  font-family: "Montserrat";
+  color: white;
   padding: 16px;
   background-color: var(--barForm);;
-  font-family: "Montserrat";
 }
 #contactForm {
   display: flex;
@@ -185,15 +184,13 @@ i {
   margin-top: 12px;
 }
 
-a:link {
+.repoLink:link {
   color: var(--link);
 }
-a:visited {
+.repoLink:visited {
   color: var(--link);
 }
+
 a.skillDefs:hover {
   -webkit-transform: scale(1.2);
-}
-a.projectPic:hover {
-  -webkit-transform: scale(1.1);
 }
