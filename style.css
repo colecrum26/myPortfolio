@@ -120,6 +120,10 @@ i {
 }
 .skillDefs {
   text-decoration: none;
+  transition: .2s;
+}
+a.skillDefs:hover {
+  transform: scale(1.2);
 }
 
 #aboutMe {
@@ -184,6 +188,4 @@ i {
   color: var(--link);
 }
 
-a.skillDefs:hover {
-  -webkit-transform: scale(1.2);
-}
+
