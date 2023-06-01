@@ -70,7 +70,9 @@ nav {
 }
 #projOv {
   text-align: center;
+  margin: 48px;
   color: var(--headerText);
+  font-size: 28px;
   font-weight: 400;
 }
 .projectCard {
@@ -84,7 +86,6 @@ nav {
 .projImg {
   width: 400px;
 }
-
 
 #tech {
   background-color: var(--gradient);
