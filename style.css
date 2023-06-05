@@ -123,6 +123,7 @@ i {
   transition: .2s;
 }
 a.skillDefs:hover {
+  display: inline-block;
   transform: scale(1.2);
 }
 
