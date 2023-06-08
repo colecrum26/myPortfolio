@@ -12,9 +12,9 @@
     <nav>
       <ul id="topNav">
         <li><a class="navLi" href="#" target="_top">Home</a></li>
-        <li><a class="navLi" href="#projOv">Projects</a></li>
-        <li><a class="navLi" href="#aboutMe">About</a></li>
-        <li><a class="navLi" href="#contact">Contact</a></li>
+        <li><a class="navLi" href="#project-overview" target="_self">Projects</a></li>
+        <li><a class="navLi" href="#about" target="_self">About</a></li>
+        <li><a class="navLi" href="#contact" target="_self">Contact</a></li>
       </ul>
     </nav>
     <header id="top">
@@ -32,7 +32,7 @@
           find out.
         </p>
       </div>
-      <h2 id="projOv">Project Overview</h2>
+      <h2 id="project-overview">Project Overview</h2>
       <section id="projects">
         <div class="projectCard">
           <a href="https://colecrum26.github.io/activity-generator/" target="_blank">
@@ -150,13 +150,13 @@
         </a>
         </div>
       </section>
-      <section id="aboutMe">
+      <section id="about">
         <div id="me">
           <img src="http://via.placeholder.com/400x400"
           alt="This is a placeholder."
           id="pic2"/>
         </div>
-        <div class="about">
+        <div id="aboutMe">
         <p>My name is Cole Crumrine. I have lived in Birmingham, Alabama, for over 20 years. I am an Auburn University graduate (<em id="WDE">War Eagle!</em>) who has recently made a career switch. 
           After graduating in December 2019, I worked in commercial banking as a Credit Analyst. While I enjoyed my work and my team, I knew it was not a career path I wanted to be on too long,
           so I decided to learn Web Development!
@@ -174,13 +174,15 @@
       <h4>Thanks for visiting my page!</h4>
         <p>Please reach out if you are interested in learning more.</p>
         <form id="contactForm" action="">
-          <input type="text" name="name" id="name" placeholder="Full Name" required>
-          <input type="email" name="email" id="email" placeholder="Email" required>
-          <input type="text" name="message" id="message" placeholder="Message" required>
+          <label for="name" class="form-label">Name</label>
+          <input type="text" name="name" id="name" required>
+          <label for="email" class="form-label">Email</label>
+          <input type="email" name="email" id="email" required>
+          <label for="message" class="form-label">Message</label>
+          <input type="text" name="message" id="message" required>
           <button type="submit" id="send">Send!</button>
         </form>
       </div>
     </footer>
-    <!-- <script src="./sticky.js"></script> -->
   </body>
 </html>

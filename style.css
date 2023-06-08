@@ -68,7 +68,7 @@ nav {
   padding: 8px;
   margin: 12px;
 }
-#projOv {
+#project-overview {
   text-align: center;
   margin: 48px;
   color: var(--headerText);
@@ -127,7 +127,7 @@ a.skillDefs:hover {
   transform: scale(1.2);
 }
 
-#aboutMe {
+#about {
   display: flex;
   flex-direction: column;
   padding: 16px;
@@ -135,7 +135,7 @@ a.skillDefs:hover {
   justify-content: center;
   text-align: left;
 }
-.about {
+#aboutMe {
   font-weight: 425;
   margin: 48px;
 }
