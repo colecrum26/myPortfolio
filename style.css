@@ -162,11 +162,11 @@ a.skillDefs:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: left;
   padding: 12px;
 }
 #name, #email, #message {
-  display: flex;
-  width: 25%;
+  width: 240px;
   margin: 4px 0 4px 0;
   border-radius: 4px;
   background-color: rgb(242, 248, 252);
@@ -174,11 +174,8 @@ a.skillDefs:hover {
 #message {
   min-height: 100px;
 }
-#message::placeholder {
-  vertical-align: text-top;
-}
 #send {
-  width: 10%;
+  width: 60px;
   margin-top: 12px;
 }
 
