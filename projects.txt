@@ -1,0 +1,15 @@
+Activity Generator
+
+A web app that generates a random activity based on input criteria. Built with Vite + React.
+
+Click Me! 
+
+A web app that generates a random color each time you click the button. Built with JS, HTML, CSS.
+
+Online Library
+
+A web app that allows you to log books you have read or want to read. Built with JS, HTML, CSS.
+
+NFT Preview Component Card
+
+A static yet responsive design on a NFT preview card from Frontend Mentor. This is primarily CSS.
