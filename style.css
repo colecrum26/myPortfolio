@@ -50,9 +50,8 @@ nav {
   text-decoration: none;
   display: block;
 }
-#AG:hover .project-content {
+.project-list:hover .project-content {
   display: block;
-
 }
 
 #welcome {
