@@ -41,7 +41,7 @@ nav {
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 .project-content a {
@@ -61,6 +61,16 @@ nav {
   font-weight: 450;
   font-size: 48px;
   margin: 72px 0 72px 0;
+  animation: animated-text 4s steps(29, end) 1s 1 normal both,
+    animated-cursor 600ms steps(29, end) infinite;
+}
+@keyframes animated-text {
+  from{width: 0;}
+  to{width: 472px;}
+}
+@keyframes animated-cursor{
+  from{border-right-color: rgba(0,255,0,.75);}
+  to{border-right-color: transparent;}
 }
 
 #intro {
@@ -117,7 +127,7 @@ nav {
   font-weight: 400;
 }
 
-.skills{
+.skills {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -126,7 +136,7 @@ nav {
   margin-right: 10%;
 }
 i {
-  font-size: 100px
+  font-size: 100px;
 }
 .skillTNs {
   gap: 1rem;
@@ -137,7 +147,7 @@ i {
 }
 .skillDefs {
   text-decoration: none;
-  transition: .2s;
+  transition: 0.2s;
 }
 a.skillDefs:hover {
   display: inline-block;
@@ -173,7 +183,7 @@ a.skillDefs:hover {
   font-family: "Montserrat";
   color: white;
   padding: 16px;
-  background-color: var(--barForm);;
+  background-color: var(--barForm);
 }
 #contactForm {
   display: flex;
@@ -187,7 +197,8 @@ a.skillDefs:hover {
   text-align: left;
   margin: 2px;
 }
-#name, #email {
+#name,
+#email {
   width: 240px;
   min-height: 20px;
   margin: 4px 0 4px 0;
@@ -211,5 +222,3 @@ a.skillDefs:hover {
 .repoLink:visited {
   color: var(--link);
 }
-
-
