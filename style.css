@@ -61,17 +61,17 @@ nav {
   font-weight: 450;
   font-size: 48px;
   margin: 72px 0 72px 0;
-  animation: animated-text 4s steps(29, end) 1s 1 normal both,
-    animated-cursor 600ms steps(29, end) infinite;
+  /* animation: animated-text 4s steps(29, end) 1s 1 normal both,
+    animated-cursor 600ms steps(29, end) infinite; */
 }
-@keyframes animated-text {
+/* @keyframes animated-text {
   from{width: 0;}
   to{width: 472px;}
 }
 @keyframes animated-cursor{
   from{border-right-color: rgba(0,255,0,.75);}
   to{border-right-color: transparent;}
-}
+} */
 
 #intro {
   text-align: center;
