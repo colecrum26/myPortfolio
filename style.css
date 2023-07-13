@@ -103,16 +103,17 @@ nav {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  gap: 1rem;
-  padding: 6px;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
+  padding: 6px;
   width: 300px;
   height: 300px;
   border-style: solid;
   border-radius: 10px;
 }
-#show {
+#show-btn {
+  align-self: center;
   margin-top: 24px;
 }
 
