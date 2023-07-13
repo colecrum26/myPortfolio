@@ -1,5 +1,5 @@
 :root {
-  --body: rgb(255, 252, 252);
+  --body: rgb(255, 255, 255);
   --gradient: rgb(217, 217, 217);
   --headerText: rgb(145, 138, 138);
   --link: rgb(81, 77, 77);
@@ -37,7 +37,7 @@ nav {
 }
 
 .project-content {
-  display: none;
+  visibility: hidden;
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
