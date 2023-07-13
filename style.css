@@ -112,7 +112,9 @@ nav {
   border-style: solid;
   border-radius: 10px;
 }
-
+#show {
+  margin-top: 24px;
+}
 
 #tech {
   background-color: var(--gradient);
