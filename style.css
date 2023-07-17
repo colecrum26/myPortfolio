@@ -103,7 +103,6 @@ nav {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   gap: 1rem;
   padding: 6px;
