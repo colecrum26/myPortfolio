@@ -22,7 +22,7 @@ nav {
 #topNav {
   display: flex;
   justify-content: space-around;
-  list-style-type: none;
+  list-style: none;
   background-color: var(--barForm);
   margin: 0px 0px 72px 0px;
   padding: 24px;
@@ -111,6 +111,15 @@ nav {
   border-style: solid;
   border-radius: 10px;
 }
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  margin: 25px 0px 10px;
+  padding: 0px;
+  list-style: none;
+}
+
 #show-btn {
   align-self: center;
   margin-top: 24px;
