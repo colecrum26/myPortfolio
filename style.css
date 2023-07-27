@@ -111,13 +111,22 @@ nav {
   border-style: solid;
   border-radius: 10px;
 }
-.tech-list {
+.tech-list-container {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-end;
+  width: inherit;
+  align-items: center;
+}
+.tech-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 25px 0px 10px;
   padding: 0px;
   list-style: none;
+}
+.tech-list-i {
+  margin: 0px 4px 0px 4px;
 }
 
 #show-btn {
