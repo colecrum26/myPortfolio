@@ -130,7 +130,8 @@ nav {
 }
 
 #show-btn {
-  align-self: center;
+  position: absolute;
+  align-self: flex-end;
   margin-top: 24px;
 }
 
